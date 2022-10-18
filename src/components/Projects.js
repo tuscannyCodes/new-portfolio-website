@@ -45,8 +45,7 @@ export const Projects = () => {
           <Col>
             <h2>Projects</h2>
             <p>
-              lorem ipsum dolor sit am lorem ipsum dolor sit amet, con lorem
-              ipsum dolor sit amet
+              These are just a few of my favorite projects.  You can check out more of the work ive done on my <a href="https://github.com/tuscannycodes">GitHub!</a>
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav

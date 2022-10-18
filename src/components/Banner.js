@@ -12,7 +12,7 @@ export const Banner = () => {
     " UI/UX Designer",
     " Software Engineer",
     " Graphic Designer",
-    " Coffee Enthusiast"
+    " Coffee Enthusiast",
   ];
   const [text, setText] = useState("");
   const [delta, setDelta] = useState(300 - Math.random() * 100);
@@ -55,14 +55,13 @@ export const Banner = () => {
           <Col xs={12} md={6} xl={7}>
             {/* <span className="tagline">Welcome to my homepage!</span> */}
             <h1>
-              {"Hi Im Tuscanny Codes :"}
+              Hi Im Tuscanny :
               <span classname="wrap">{text}</span>
             </h1>
             <p>
-              lorem ipsum dolor sit amet, consectetur lorem ipsum dolor sit amet
-              lorem
+            My name is Tuscanny, and Im a Web Designer and FrontEnd Software Engineer. I often wonder how ideas and designs come together to make things that are elegant, practical and thechnically impressive. I enjoy challenging myself to create one-of-a-kind designs and web applications that are unique and break the mold of conventional website aesthetics. Building crisp and profesional web apps is fun for me, and a dicipline that inspires my imagination in personal projects.
             </p>
-            <button onClick={() => console.log("connect")}>
+            <button className="bannerButton" onClick={() => console.log("connect")}>
               Reach out <ArrowRightCircle size={25} />
             </button>
           </Col>
