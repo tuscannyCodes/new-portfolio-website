@@ -291,7 +291,9 @@ width: 180px;
   margin-left: 25px;
 }
 .banner img {
-  visibility: hidden;
+  width: 600px;
+  height: 500px;
+  /* visibility: hidden; */
   animation: updown 3s linear infinite;
 }
 @keyframes updown {
