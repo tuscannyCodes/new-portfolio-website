@@ -49,28 +49,34 @@ export const Projects = () => {
               ipsum dolor sit amet
             </p>
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
-              <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
+              <Nav
+                variant="pills"
+                className="nav-pills mb-5 justify-content-center align-items-center"
+                id="pills-tab"
+              >
                 <Nav.Item>
-                  <Nav.Link className="projectTab" eventKey="first">Web Development</Nav.Link>
+                  <Nav.Link className="projectTab" eventKey="first">
+                    Web Development
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link className="projectTab" eventKey="second">UI/UX Design</Nav.Link>
+                  <Nav.Link className="projectTab" eventKey="second">
+                    UI/UX Design
+                  </Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link className="projectTab" eventKey="third">Graphic Design</Nav.Link>
+                  <Nav.Link className="projectTab" eventKey="third">
+                    Graphic Design
+                  </Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
                 <Tab.Pane eventKey="first">
-<Row>
-    {projects.map((project,index)=>{
-
-        return(
-            <ProjectCard key={index} {...project}/>
-        )
-    })}
-</Row>
-
+                  <Row>
+                    {projects.map((project, index) => {
+                      return <ProjectCard key={index} {...project} />;
+                    })}
+                  </Row>
                 </Tab.Pane>
                 <Tab.Pane eventKey="second">Comming soon</Tab.Pane>
                 <Tab.Pane eventKey="third">Comming soon</Tab.Pane>
