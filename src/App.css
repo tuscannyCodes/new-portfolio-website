@@ -454,8 +454,8 @@ width: 180px;
 }
 .proj-imgbx::before {
   content: "";
-  background: linear-gradient(108deg, grey, black);
-  opacity: 0.85;
+  background: black;
+  opacity: 5.00;
   position: absolute;
   width: 100%;
   height: 0;

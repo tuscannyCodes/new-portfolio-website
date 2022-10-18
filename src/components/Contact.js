@@ -83,7 +83,7 @@ export const Contact = () => {
                 <Col sm={6} className="px-1">
                   <input
                     type="tel"
-                    value={formDetails.lastName}
+                    value={formDetails.phone}
                     placeholder="Phone Number"
                     onChange={(e) => onFormUpdate("phone", e.target.value)}
                   />
