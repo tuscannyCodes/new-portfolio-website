@@ -39,7 +39,7 @@ export const Projects = () => {
   ];
 
   return (
-    <section className="project" id="project">
+    <section className="projects projectsBg" id="projects">
       <Container>
         <Row>
           <Col>
@@ -51,13 +51,13 @@ export const Projects = () => {
             <Tab.Container id="projects-tabs" defaultActiveKey="first">
               <Nav variant="pills" className="nav-pills mb-5 justify-content-center align-items-center" id="pills-tab">
                 <Nav.Item>
-                  <Nav.Link eventKey="first">Tab one</Nav.Link>
+                  <Nav.Link className="projectTab" eventKey="first">Web Development</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="seconf">Tab two</Nav.Link>
+                  <Nav.Link className="projectTab" eventKey="second">UI/UX Design</Nav.Link>
                 </Nav.Item>
                 <Nav.Item>
-                  <Nav.Link eventKey="third">Tab three</Nav.Link>
+                  <Nav.Link className="projectTab" eventKey="third">Graphic Design</Nav.Link>
                 </Nav.Item>
               </Nav>
               <Tab.Content>
@@ -72,14 +72,14 @@ export const Projects = () => {
 </Row>
 
                 </Tab.Pane>
-                <Tab.Pane eventKey="second">lorem ipsum </Tab.Pane>
-                <Tab.Pane eventKey="third">lorem ipsum</Tab.Pane>
+                <Tab.Pane eventKey="second">Comming soon</Tab.Pane>
+                <Tab.Pane eventKey="third">Comming soon</Tab.Pane>
               </Tab.Content>
             </Tab.Container>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-right" src={colorSharp2}/>
+      {/* <img className="background-image-right" src={colorSharp2}/> */}
     </section>
   );
 };

@@ -32,35 +32,35 @@ export const Skills = () => {
         <Row>
           <Col>
             <div className="skill-bx">
-              <h2>Skills</h2>
-              <p>Lorem Ipsum lorem ipsum dolor sit amet, consect lorem ipsum</p>
+              <h2>Skills I use to create</h2>
+              <p>I enjoy </p>
               <Carousel
                 responsive={responsive}
                 infinite={true}
                 className="skill-slider"
               >
                 <div className="item">
-                  <img src={meter1} alt="Image"></img>
-                  <h5>Web Development</h5>
+                  {/* <img src={meter1} alt="Image"></img> */}
+                  <h1>Web Development</h1>
                 </div>
                 <div className="item">
-                  <img src={meter2} alt="Image"></img>
-                  <h5>UI/UX Design</h5>
+                  {/* <img src={meter2} alt="Image"></img> */}
+                  <h1>UI/UX <br></br>Design</h1>
                 </div>
                 <div className="item">
-                  <img src={meter3} alt="Image"></img>
-                  <h5>Graphic Design</h5>
+                  {/* <img src={meter3} alt="Image"></img> */}
+                  <h1>Graphic Design</h1>
                 </div>
                 <div className="item">
-                  <img src={meter1} alt="Image"></img>
-                  <h5>Software Development</h5>
+                  {/* <img src={meter1} alt="Image"></img> */}
+                  <h1>Software Development</h1>
                 </div>
               </Carousel>
             </div>
           </Col>
         </Row>
       </Container>
-      <img className="background-image-left" src={colorSharp}/>
+      {/* <img className="background-image-left" src={colorSharp}/> */}
     </section>
   );
 };
